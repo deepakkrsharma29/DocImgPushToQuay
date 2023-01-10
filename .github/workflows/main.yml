@@ -31,5 +31,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: deepakkrsharma29/clockbox:latest
+          tags: deepakkrsharma29/firstrepo/clockbox:latest
           labels: clockbox
