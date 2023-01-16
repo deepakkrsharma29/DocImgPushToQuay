@@ -20,5 +20,5 @@ jobs:
           password: Password@123
 
       - run: |
-          docker build . -t quay.io/k8sdemo:${{ github.sha }}
-          docker push quay.io/k8sdemo:${{ github.sha }}
+          docker build . -t quay.io/deepakkrsharma29firstrepo:${{ github.sha }}
+          docker push quay.io/deepakkrsharma29firstrepo:${{ github.sha }}
